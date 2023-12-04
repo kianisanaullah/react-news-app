@@ -16,8 +16,8 @@ Before you start, make sure you have the following installed:
 1. **Clone the repository:**
 
    ```
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/kianisanaullah/react-news-app.git
+   cd react-news-app
 
 
 2. Set up the frontend:
