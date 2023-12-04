@@ -7,7 +7,7 @@ import UserProfile from './components/UserProfile';
 import Navbar from './components/Navbar';
 import Login from './components/Login';
 import Register from './components/Register';
-import PreferencesForm from './components/PreferencesForm';
+import UserPreferences from './components/UserPreferences';
 import NewsList from './components/NewsList';
 import ArticleList from './components/ArticleList';
 
@@ -21,7 +21,7 @@ function App() {
                     <Route path="/profile" element={<UserProfile />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
-                    <Route path="/preferences" element={<PreferencesForm />} />
+                    <Route path="/preferences" element={<UserPreferences />} />
                     <Route path="/news_feed" element={<NewsList />} />
                     <Route path="/articles" element={<ArticleList />} />
                 </Routes>
